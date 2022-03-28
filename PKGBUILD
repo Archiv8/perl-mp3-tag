@@ -5,14 +5,12 @@
 # repository root directory, see https://github.com/koalaman/shellcheck/wiki
 # and https://archiv8.github.io for further information.
 # shellcheck disable=SC2034,SC2154
-# [ToDo]: Add files: Tooling
-# [ToDo]: Add files: User documentation
-# [FixMe]: Namcap warnings and errors
-# Contributor: Ross Clark <archiv8@artisteducator.com>
+# ToDo: Add files: User documentation
+# ToDo: Add files: Tooling
+# FixMe: Namcap warnings and errors
 
-# Maintainer: René Wagner <rwagner at rw-net dot de>
-# Contributor: John D Jones III AKA jnbek <jnbek1972 -_AT_- g m a i l -_Dot_- com>
-# Generator  : CPANPLUS::Dist::Arch 1.32
+# Maintainer: Ross Clark <archiv8@artisteducator.com>
+# Contributor: Ross Clark <archiv8@artisteducator.com>
 
 pkgname="perl-mp3-tag"
 pkgver="1.15"
@@ -60,9 +58,3 @@ package() {
 
   find "$pkgdir" -name .packlist -o -name perllocal.pod -delete
 }
-
-# Local Variables:
-# mode: shell-script
-# sh-basic-offset: 2
-# End:
-# vim:set ts=2 sw=2 et:
